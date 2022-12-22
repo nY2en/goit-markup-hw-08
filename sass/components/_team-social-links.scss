@@ -1,0 +1,24 @@
+.team-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.team-icons__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.team-icons__link {
+    color: inherit;
+    @extend %centered;
+    @extend %icons-active;
+    
+    &:hover,
+    &:focus {
+        color: $white;
+        background-color: $accent;
+    }
+}
+
+.team-icons__icon {
+    @extend %icons-size;
+}

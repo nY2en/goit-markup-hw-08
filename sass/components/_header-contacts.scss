@@ -1,0 +1,30 @@
+.header-contacts {
+    margin-left: auto;
+}
+
+.header-contacts__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.header-contacts__link {
+    @extend %site-nav-and-header-contacts-links;
+    &:hover,
+    &:focus {
+        color: $accent;
+    }
+}
+
+.header-contacts__icon { 
+    fill: currentColor;
+    margin-right: 10px;
+}
+
+.header-contacts__icon--mail { 
+    width: 16px;
+    height: 12px;
+}
+
+.header-contacts__icon--tel { 
+    width: 10px;
+    height: 16px;
+}

@@ -1,0 +1,61 @@
+%site-nav-and-header-contacts-links {
+    position: relative;
+
+    color:inherit;
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em; 
+    
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    max-width: 100%;
+    max-height: 100%;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+%centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%icons-active {
+    width: 44px;
+    height: 44px;
+    
+    border-radius: 50%;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+%icons-size {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+%title {
+    color : $white;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+%button {
+    color: $white;
+    background: $accent;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    border: none;
+    border-radius: 4px;
+    
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.qualities {
+    display: flex;
+}
+
+.qualities__title {
+    color: $text-secondary-color;
+   
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.qualities__item {
+    width : calc((100% - 90px)/4);
+}
+
+.qualities__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.qualities__thumb {
+    background-color: $background-team-color;
+    border-radius: 4px;
+
+    width: 270px;
+    height: 120px;
+
+    margin-bottom: 30px;
+
+    @extend %centered;
+}
+
+.qualities__icon {
+    display: flex;
+    width: 70px;
+    height: 70px;
+}
