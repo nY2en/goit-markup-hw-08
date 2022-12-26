@@ -1,5 +1,16 @@
 .join-us {
-    margin-left: 70px;
+    @media screen and (max-width: 767px) {
+        margin-bottom: 60px;
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        margin-left: auto;
+        text-align: center;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-left: 70px;
+    }
 }
 
 .join-us__title {
@@ -10,6 +21,10 @@
 
 .footer-icons {
     display: flex;
+
+    @media screen and(max-width: 767px) {
+        justify-content: center;
+    }
 }
 
 .footer-icons__item:not(:last-child) {

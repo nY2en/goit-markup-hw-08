@@ -1,8 +1,17 @@
+.address {
+    @media screen and (max-width: 767px) {
+        margin-bottom: 60px;
+    }
+}
+
 .address__street {
     color: $white;
     font-style: normal;
     margin-bottom: 9px;
-    width: 231px;
+
+    @media screen and (min-width: 1200px) {
+        width: 231px
+    }
 }
 
 .footer-contacts__item:not(:last-child) {

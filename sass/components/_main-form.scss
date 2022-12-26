@@ -93,10 +93,15 @@
 }
 
 .form__policy {
+    font-size: 12px;
     display: flex;
     margin-bottom: 30px;
     align-items: center;
     justify-content: center;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;;
+    }
 }
 
 .form__conditions {

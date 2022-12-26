@@ -4,10 +4,14 @@
 .header-contacts,
 .header-contacts__item,
 .header-contacts__link{ 
-    display: flex;  
-    align-items: center;
+    @media screen and (min-width:768px) {
+        display: flex;  
+        align-items: center;
+    }
 }
 
 .page-header {
     border-bottom: 1px solid $header-border-color;
+    position: relative;
+
 }

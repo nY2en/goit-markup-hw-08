@@ -8,7 +8,7 @@
 }
 
 .team-icons__link {
-    color: inherit;
+    color: $social-networks-icons-color;
     @extend %centered;
     @extend %icons-active;
     
