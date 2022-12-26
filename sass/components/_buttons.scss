@@ -1,12 +1,12 @@
 .buttons {
-    // display: flex;
+    display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-// .buttons__item:not(:last-child) { 
-//     margin-right: 8px;
-// }
+.buttons__item:not(:last-child) { 
+    margin-right: 8px;
+}
 
 .buttons__radio {
     color: $text-secondary-color;

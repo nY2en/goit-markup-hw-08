@@ -59,6 +59,8 @@
     display: none;
     padding: 48px 40px;
 
+    overflow: auto;
+        
     background-color: $white;
     }
 
@@ -87,8 +89,8 @@
         color: $accent;
     }
 
-    @media screen and (max-width: 465px) {
-        font-size: 12px;
+     @media screen and (max-width: 465px) {
+        font-size: 10px;
     }
 }
 
@@ -108,5 +110,9 @@
     margin-left: 10px;
     margin-right: 10px;
     border: 1px solid rgba(33, 33, 33, 0.2);
+
+    @media screen and (max-width: 400px) {
+        margin: 0 5px;
+    }
 }
 
