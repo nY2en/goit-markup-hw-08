@@ -450,7 +450,7 @@ body.modal-open {
 
 @media screen and (max-width: 767px) {
   .nav {
-    margin-bottom: 302px;
+    margin-bottom: auto;
   }
 }
 
@@ -665,11 +665,11 @@ body.modal-open {
 }
 
 .menu-container.is-open {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 @media screen and (max-width: 767px) {
   .menu-container {
-    overflow: auto;
     height: 100vh;
     position: absolute;
     top: 0;
